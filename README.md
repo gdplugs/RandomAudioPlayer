@@ -10,4 +10,4 @@ A simple node that selects a random child and plays the audio
 3. Enable this addon within the Godot settings: `Project > Project Settings > Plugins`
 
 # 📚 Getting started
-![example](example.jpg)
+![example](example.png)
