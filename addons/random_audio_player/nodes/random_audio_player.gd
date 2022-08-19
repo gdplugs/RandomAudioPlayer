@@ -39,3 +39,10 @@ static func get_children_of_type(node: Node, child_type):
 		if child is child_type:
 			list.append(child)
 	return list
+
+func _get_configuration_warnings():
+	var has_valid_children = false
+	if len(get_children_of_type(self, AudioStreamPlayer2D)) < 1:
+		return ["AudioStreamPlayer2D is required"]
+	return []
+	
